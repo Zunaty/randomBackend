@@ -1,0 +1,24 @@
+{
+  "name": "randombackend",
+  "version": "1.0.0",
+  "description": "Just a random backend api for nosql",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zunaty/randomBackend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zunaty/randomBackend/issues"
+  },
+  "homepage": "https://github.com/Zunaty/randomBackend#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5"
+  }
+}

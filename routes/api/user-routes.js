@@ -15,7 +15,7 @@ router.route('/')
 
 // /api/user/:id
 router.route('/:id')
-    .get(getOneUSer)
+    .get(getOneUser)
     .put(updateUser)
     .delete(deleteUser);
 
